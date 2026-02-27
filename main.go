@@ -19,8 +19,8 @@ func main() {
 	app.Post("/users", h.Create)
 	app.Get("/users/:id", h.GetByID)
 
-	log.Println("Server is starting at :8080")
-	if err := app.Listen(":8080"); err != nil {
+	log.Println("Server is starting at :3000")
+	if err := app.Listen(":3000"); err != nil {
 		log.Fatal(err)
 	}
 }
