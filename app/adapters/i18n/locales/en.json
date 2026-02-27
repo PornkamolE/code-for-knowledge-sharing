@@ -1,0 +1,10 @@
+{
+  "0000": "Success",
+  "E500": "Internal Server Error: {0}",
+  "E800": "External server error: {0}",
+  "E401": "Unauthorized",
+  "E403": "Forbidden",
+  "E404": "Data Not Found.",
+  "E400": "Bad Request",
+  "E408": "Request Timeout"
+}
